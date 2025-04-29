@@ -1,0 +1,97 @@
+body {
+    background-image: url(./assets/meatBG.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    
+}
+nav {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+#content {
+    display: flex;
+    justify-content: center
+}
+#container {
+    background: palevioletred;
+    border: 4px dashed salmon;
+    border-radius: 100px;
+
+    min-width: 300px;
+    max-width: 75vw;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-style: italic;
+}
+h2 {
+    width: 70%;
+}
+
+.menuContainer {
+    width: 90%;
+    padding-left: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.menuContainer>li {
+    list-style: none;
+    font-weight: 800;
+    margin-bottom: 1.2em;
+}
+li>p {
+    font-weight: 100;
+}
+.menuContainer>li:nth-of-type(2n) {
+    text-align: end;
+}
+.reviewContainer {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+p>h4 {
+    font-style: normal;
+    padding-left: 2em;
+    margin-top: 10px;
+}
+.mainBody {
+    line-height: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    white-space: pre-line;
+}
+#number {
+    margin-top: -.5em;
+}
+.closer {
+    padding-bottom: 3em;
+}
+#content {
+    margin-bottom: 2em;
+}
+button {
+    background-color: bisque;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    
+}
+button:hover{
+    background-color: red;
+    color: black;
+
+    padding: 10px 30px;
+}
